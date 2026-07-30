@@ -1,29 +1,40 @@
-# Man-in-the-Middle (MITM) Attack Simulation
+# MITM Attack Simulation
+
+**Network Traffic Interception and Security Analysis**
 
 ## Overview
 
-This project demonstrates a Man-in-the-Middle (MITM) attack, where an attacker intercepts communication between two systems. The objective is to illustrate potential security vulnerabilities in network communication and emphasize the importance of secure protocols.
+A Man-in-the-Middle (MITM) attack is a cybersecurity threat in which an attacker secretly intercepts and, in some cases, modifies communication between two systems without their knowledge.
+
+This project simulates a controlled MITM attack using Python-based networking tools to demonstrate packet interception, traffic monitoring, and network analysis. The implementation is intended solely for educational and research purposes to improve understanding of network security concepts.
 
 ## Objectives
 
-* Understand the working of MITM attacks
-* Simulate packet interception and monitoring
-* Analyze network traffic behavior
-* Highlight security risks in unsecured communication
+- Demonstrate the workflow of a Man-in-the-Middle attack
+- Capture and analyze network packets
+- Observe communication between network hosts
+- Understand security risks associated with unsecured communication
+- Promote awareness of defensive network security practices
 
 ## Technologies Used
+Python
 
-* Python
-* Scapy / Network Analysis Tools
-* Wireshark
-* Linux / Kali Linux
+Scapy
+
+Wireshark
+
+linux 
+
 
 ## Features
 
-* Packet sniffing and capture
-* Interception of network traffic
-* Analysis of transmitted data
-* Generation of output results
+## Features
+
+- Packet sniffing and capture
+- Network traffic interception
+- Packet analysis and inspection
+- Communication monitoring
+- Experimental result generation
 
 ## Project Structure
 
@@ -33,27 +44,38 @@ mitm-attack-simulation/
 │── README.md
 │── requirements.txt
 
-## How to Run
+## Installation
 
-1. Clone the repository:
-   git clone https://github.com/your-username/mitm-attack-simulation.git
+### Clone the repository
 
-2. Navigate to the project folder:
-   cd mitm-attack-simulation
+```bash
+git clone https://github.com/yourusername/mitm-attack-simulation.git
+cd mitm-attack-simulation
+```
 
-3. Install dependencies:
-   pip install -r requirements.txt
+### Install dependencies
 
-4. Run the main script:
-   python src/main.py
+```bash
+pip install -r requirements.txt
+```
+
+### Run
+
+```bash
+python src/main.py
+```
+
+## Security Considerations
+
+The project is intended for controlled laboratory environments only. Performing MITM attacks on networks without authorization is illegal and unethical. The implementation should be used exclusively for educational, research, and defensive cybersecurity training.
 
 ## Results
 
-The `results/` folder contains output files, logs, and analysis generated during the simulation.
+The simulation demonstrates successful packet interception and traffic monitoring within a controlled environment. Generated outputs include captured packets, traffic logs, and network analysis that illustrate how unsecured communication can be exposed during a MITM attack.
 
-## Disclaimer
+## Conclusion
 
-This project is intended for educational purposes only. It should not be used for any unauthorized or unethical activities.
+This project provides a practical demonstration of Man-in-the-Middle attacks and highlights the importance of secure communication protocols, encrypted traffic, and network security best practices. It serves as an educational resource for understanding both offensive techniques and defensive cybersecurity measures.
 
 ## Author
 
